@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.Listeners.TestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.saucedeme.testscripts.Scenario1Test"/>
+      <class name="com.saucedeme.testscripts.Scenario2Test"></class>
+      <class name="com.saucedeme.testscripts.Scenario3Test"></class>
+      <class name="com.saucedeme.testscripts.Scenario4Test"></class>
+      <class name="com.saucedeme.testscripts.Scenario5Test"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
