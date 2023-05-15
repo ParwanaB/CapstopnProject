@@ -3,6 +3,7 @@ package com.saucedeme.testscripts;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -49,8 +50,9 @@ public class Scenario3Test extends BaseTest{
 		// 13 ) verify the Error Message
 		
 		String expectedErrMsg = "Error: Last Name is required";
-		String actualErrMsg = driver.getTitle();
-		landingPage.getErrMsg();
+		String actualErrMsg = landingPage.getErrMsg();
+		Assert.assertEquals(actualErrMsg, expectedErrMsg);
+		
 		
 		
 		

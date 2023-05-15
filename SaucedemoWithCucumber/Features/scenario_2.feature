@@ -4,5 +4,4 @@ Given user is on the landing page of saucedeme.com
 When he enters the user name locked_out_user
 And he enters the password secret_sauce
 And he clicks on login button
-And he verifys the error message Epic sadface: Sorry this user has been locked out.
-Then he close the browser 
+Then he verifys the error message Epic sadface: Sorry this user has been locked out.

@@ -19,5 +19,5 @@ And last name is being entered
 And postal code was entered by him
 And continue button was clicked 
 And  finish button was checked
-And verify the success message Thank you for your order
-Then browser will be close
+Then verify the success message Thank you for your order
+

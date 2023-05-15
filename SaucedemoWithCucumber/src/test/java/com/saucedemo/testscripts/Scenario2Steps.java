@@ -35,18 +35,14 @@ public class Scenario2Steps extends Driver {
 	    landingPage.clickLogInBtn();
 	}
 
-	@When("he verifys the error message Epic sadface: Sorry this user has been locked out.")
+	@Then("he verifys the error message Epic sadface: Sorry this user has been locked out.")
 	public void he_verifys_the_error_message_epic_sadface_sorry_this_user_has_been_locked_out() {
 		String expectedErrMsg= "Epic sadface: Sorry, this user has been locked out.";
 		   String actualErrMsg = landingPage.getErrMsg();
+		   Assert.assertEquals(actualErrMsg, expectedErrMsg);
 	}
 
-	@Then("he close the browser")
-	public void he_close_the_browser() {
-		
-	    
-	}
-
+	
 
 
 }

@@ -24,7 +24,7 @@ public class Scenario2Test extends BaseTest {
 	   // verify the error message - Epic sadface: sorry, this user has been locked out is displayed
 	   String expectedErrMsg= "Epic sadface: Sorry, this user has been locked out.";
 	   String actualErrMsg = landingPage.getErrMsg();
-	  // Assert.assertEquals(actualErrMsg, expectedErrMsg);
+	   Assert.assertEquals(actualErrMsg, expectedErrMsg);
 	   
 	}
 

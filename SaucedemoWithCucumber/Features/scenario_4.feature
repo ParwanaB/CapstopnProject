@@ -13,5 +13,4 @@ And Enter the last name
 And Enter the postal code
 And Click on Continue 
 And Click on finish button next page
-And verify the success message
-Then close the window
+Then  verify the success message

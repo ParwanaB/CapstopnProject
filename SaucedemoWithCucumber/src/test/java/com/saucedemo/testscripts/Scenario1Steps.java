@@ -80,17 +80,18 @@ public class Scenario1Steps extends Driver {
 	    finish.clickFinishBtn();
 	}
 
-	@When("Verify the success message Your cart has been dispatched, and will arrive just as fast as the pony can get there!")
+	@Then ("Verify the success message Your cart has been dispatched, and will arrive just as fast as the pony can get there!")
 	public void verify_the_success_message_your_cart_has_been_dispatched_and_will_arrive_just_as_fast_as_the_pony_can_get_there() {
 		VerifySuccessMsg verifySuccessMsg = new VerifySuccessMsg(driver);
 		String expectedSuccessMsg = "Your order has been dispatched, and will arrive just as fast as the pony can get there!";
 		String actualSuccessMsg = verifySuccessMsg.getSuccessMsg();
+		Assert.assertEquals(actualSuccessMsg, expectedSuccessMsg);
+		
 	}
 
-	@Then("close the browser")
-	public void close_the_browser() {
+	
 	    
 	}
 
 
-}
+

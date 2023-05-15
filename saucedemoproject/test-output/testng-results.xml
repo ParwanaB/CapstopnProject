@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T02:14:07 PDT" name="Default suite" finished-at="2023-04-20T02:14:14 PDT" duration-ms="7120">
+  <suite started-at="2023-04-29T08:24:01 PDT" name="Default suite" finished-at="2023-04-29T08:24:09 PDT" duration-ms="7734">
     <groups>
     </groups>
-    <test started-at="2023-04-20T02:14:07 PDT" name="Default test" finished-at="2023-04-20T02:14:14 PDT" duration-ms="7120">
-      <class name="com.saucedeme.testscripts.Scenario4Test">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.saucedeme.testscripts.Scenario4Test@7b2bbc3]" started-at="2023-04-20T02:14:07 PDT" name="launchApplication" finished-at="2023-04-20T02:14:12 PDT" duration-ms="5743" status="PASS">
+    <test started-at="2023-04-29T08:24:01 PDT" name="Default test" finished-at="2023-04-29T08:24:09 PDT" duration-ms="7734">
+      <class name="com.saucedeme.testscripts.Scenario5Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.saucedeme.testscripts.Scenario5Test@7b2bbc3]" started-at="2023-04-29T08:24:01 PDT" name="launchApplication" finished-at="2023-04-29T08:24:07 PDT" duration-ms="5881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="SortPrice()[pri:0, instance:com.saucedeme.testscripts.Scenario4Test@7b2bbc3]" started-at="2023-04-20T02:14:12 PDT" name="SortPrice" finished-at="2023-04-20T02:14:13 PDT" duration-ms="1071" status="PASS">
+        <test-method signature="SuccessMsg()[pri:0, instance:com.saucedeme.testscripts.Scenario5Test@7b2bbc3]" started-at="2023-04-29T08:24:07 PDT" name="SuccessMsg" finished-at="2023-04-29T08:24:09 PDT" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SortPrice -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.saucedeme.testscripts.Scenario4Test@7b2bbc3]" started-at="2023-04-20T02:14:13 PDT" name="closeTheBrowser" finished-at="2023-04-20T02:14:14 PDT" duration-ms="273" status="PASS">
+        </test-method> <!-- SuccessMsg -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.saucedeme.testscripts.Scenario5Test@7b2bbc3]" started-at="2023-04-29T08:24:09 PDT" name="closeTheBrowser" finished-at="2023-04-29T08:24:09 PDT" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-      </class> <!-- com.saucedeme.testscripts.Scenario4Test -->
+      </class> <!-- com.saucedeme.testscripts.Scenario5Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

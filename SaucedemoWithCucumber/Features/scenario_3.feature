@@ -11,5 +11,5 @@ And Enter the first name
 And Enter your last name 
 And Enter postal code
 And he clicked on continue button
-And an error message is displayed Error: Last Name is required
-Then close the browser window
+Then an error message is displayed Error: Last Name is required
+

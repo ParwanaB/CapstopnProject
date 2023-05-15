@@ -71,17 +71,13 @@ public void he_clicked_on_continue_button() {
     names.clickContinueBtn();
 }
 
-@When("an error message is displayed Error: Last Name is required")
+@Then("an error message is displayed Error: Last Name is required")
 public void an_error_message_is_displayed_error_last_name_is_required() {
 	
 	String expectedErrMsg = "Error: Last Name is required";
-	String actualErrMsg = driver.getTitle();
-	landingPage.getErrMsg();
-}
-
-@Then("close the browser window")
-public void close_the_browser_window() {
-    
+	String actualErrMsg = landingPage.getErrMsg();
+	
+	Assert.assertEquals(actualErrMsg, expectedErrMsg);
 }
 
 

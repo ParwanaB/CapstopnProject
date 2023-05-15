@@ -84,19 +84,16 @@ public void click_on_finish_button_next_page() {
 }
 
 
-	@When("verify the success message")
+	@Then("verify the success message")
 	public void verify_the_success_message() {
 		
 		String expectedSuccessMsg = "Thank you for your order!";
-		String actualSuccessMsg = verifySuccessMsg.getSuccessMsg();
+		String actualSuccessMsg = verifySuccessMsg.getSucMsg();
+		Assert.assertEquals(actualSuccessMsg, expectedSuccessMsg);
 		
 	    
 	}
 
-	@Then("close the window")
-	public void close_the_window() {
-	   
-	}
-
+	
 
 }

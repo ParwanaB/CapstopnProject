@@ -12,5 +12,5 @@ And Enter the last name in the last name textbox
 And Postal Code entered in postal code textbox
 And Click on continue button 
 And Click on finish button
-And Verify the success message Your cart has been dispatched, and will arrive just as fast as the pony can get there!
-Then close the browser
+Then Verify the success message Your cart has been dispatched, and will arrive just as fast as the pony can get there!
+ 

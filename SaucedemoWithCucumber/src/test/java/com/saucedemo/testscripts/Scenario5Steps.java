@@ -132,16 +132,14 @@ public class Scenario5Steps extends Driver {
 	        finish.clickFinishBtn();
 	    }
 	
-	    @When("verify the success message Thank you for your order")
+	    @Then ("verify the success message Thank you for your order")
 	    public void verify_the_success_message_thank_you_for_your_order() {
 	    	
 			 String expectedText = "Thank you for your order!";
 			String actualText= verifySuccessMsg.getSucMsg();
+			Assert.assertEquals(actualText, expectedText);
 	    }
 	
-	@Then("browser will be close")
-	public void browser_will_be_close() {
-	    
-	}
+		}
 
-}
+

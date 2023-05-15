@@ -56,10 +56,12 @@ public class Scenario4Test extends BaseTest {
 		
 		VerifySuccessMsg verifySuccessMsg = new VerifySuccessMsg(driver);
 		String expectedSuccessMsg = "Thank you for your order!";
-		String actualSuccessMsg = verifySuccessMsg.getSuccessMsg();
+		String actualSuccessMsg = verifySuccessMsg.getSucMsg();
+				Assert.assertEquals(actualSuccessMsg, expectedSuccessMsg);
+				
 		
 		
-		driver.quit();
+
 		
       }
 

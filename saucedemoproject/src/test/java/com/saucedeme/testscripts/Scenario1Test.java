@@ -48,6 +48,7 @@ public class Scenario1Test extends BaseTest {
 		
 	String expectedSuccessMsg = "Your order has been dispatched, and will arrive just as fast as the pony can get there!";
 	String actualSuccessMsg = verifySuccessMsg.getSuccessMsg();
+	Assert.assertEquals(actualSuccessMsg, expectedSuccessMsg);
 	
 		
 	}
